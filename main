@@ -1,0 +1,18 @@
+print('Basic Calculator coded by DreamzUS')
+firstNumber = int(input('What is the first number? '))
+secondNumber = int(input('What is the second number? '))
+method = input('Would you like to multiply, divide, add or subtract the numbers? ')
+
+if method == 'subtract':
+    Answer = firstNumber - secondNumber
+    Symbol = '-'
+elif method == 'add':
+    Answer = firstNumber + secondNumber
+    Symbol = '+'
+elif method == 'divide':
+    Answer = firstNumber / secondNumber
+    Symbol = '/'
+elif method == 'multiply':
+    Answer = firstNumber * secondNumber
+    Symbol = '*'
+print(firstNumber,Symbol,secondNumber,'equals', Answer)
